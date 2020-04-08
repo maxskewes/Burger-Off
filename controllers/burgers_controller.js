@@ -12,28 +12,37 @@ router.get("/", function(req, res) {
         burgers: data
       };
       console.log(hbsObject);
-      res.render("index", hbsObject);
+      res.render("home", hbsObject);
     });
   });
   
   router.post("/api/burgers", function(req, res) {
-    burger.create(["burgerName"], [req.body.name],
+    burger.create(["burger_name"], [req.body.name],
      function(result) {
       res.json({ id: result.insertId });
     });
   });
+
+  router.delete("/api/burgers/:id", function(req, res) {
+    var condition = "id=" + req.params.id;
+    burger.delete( condition, function(result) {
+      if (!result) {
+        // If no rows were changed, then the ID must not exist, so 404
+        return res.status(404).end();
+      } else {
+        return res.status(200).end();
+      }
+    });
+  });
   
-  router.patch("/api/burgers/:id", function(req, res) {
+  router.put("/api/burgers/:id", function(req, res) {
     var condition = "id = " + req.params.id;
-  
-    console.log("condition", condition);
-  
-    burger.update(req.body.devoured, condition, function(result) {
+    burger.update( req.body.devoured, condition, function(result) {
       if (result.changedRows == 0) {
         // If no rows were changed, then the ID must not exist, so 404
         return res.status(404).end();
       } else {
-        res.status(200).end();
+        return res.status(200).end();
       }
     });
   });

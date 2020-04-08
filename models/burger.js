@@ -13,17 +13,16 @@ var burger = {
       cb(res);
     });
   },
-  update: function(booleanVal, condition, cb) {
+  update: function( booleanVal, condition, cb ) {
     orm.update("burgers", booleanVal, condition, function(res) {
       cb(res);
     });
   },
   delete: function(condition, cb) {
-    orm.delete("burgers", condition, function(res) {
-      cb(res);
-    });
+      orm.delete("burgers", condition, function(res) {
+        cb(res);
+      });
   }
-};
-
+}
 // Export the database functions for the controller (catsController.js).
 module.exports = burger;
