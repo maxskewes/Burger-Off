@@ -1,11 +1,11 @@
 <p class="shadow">
 	{{burger_name}}
 
-	<button class="devour btn btn-outline-warning" data-id="{{id}}" data-devour="{{devoured}}">
+	<button class="devour btn btn-success" data-id="{{id}}" data-devour="{{devoured}}">
 		{{#if devoured}}DEVOUR!{{else}}REGURGITATE{{/if}}
 	</button>
 	{{#unless devoured}}
-	<button class="delete-burger btn btn-outline-warning" data-id="{{id}}">
+	<button class="delete-burger btn btn-danger" data-id="{{id}}">
 		DELETE
 	</button>
 	{{/unless}}
