@@ -1,13 +1,10 @@
 body {
-    background-color: #c58526;
-  }
+  background-color: lightblue;
+}
   
-  .card {
-    border: none;
-  }
-
-  h1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
-    color: #f09d04;
-  }
+.card {
+  border: none;
+  color: rgb(138, 0, 0);
+  font-size: 24px;
+  font-display: bold;
+}
