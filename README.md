@@ -4,7 +4,7 @@ Burger Off! is an app designed with [Handlebars](handlebarsjs.com), utilizing th
 
 ## Technologies Utilized
 * [MySQL](https://www.mysql.com)
-* [Handlebars] (handlebarsjs.com)
+* [Handlebars](handlebarsjs.com)
 * [Node](https://nodejs.org)
 * [Express](expressjs.com)
 * [Javascript](https://www.javascript.com)
