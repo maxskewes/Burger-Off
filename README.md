@@ -17,5 +17,8 @@ Click [here](https://burgeroff.herokuapp.com/) to view the app in Heroku.
 ## Author
 Maxwell Countryman Skewes
 
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
 ## Acknowlegements
 Much thanks to my tutor Mark Steadman and TA Claudette Raynor for their guidance.
