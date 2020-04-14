@@ -2,6 +2,15 @@
 ### ©2020
 Burger Off! is an app that allows users to design burgers they wish to eat and then devour them with a "devour" button.
 
+## Technologies Utilized
+* MySQL
+* Node (modules: express, mysql, express-handlebars)
+* Express
+* Handlebars
+* ORM
+* Heroku (jawsDB addon - to connect to mysql)
+* jquery, css
+
 ## Deployment
 Click [here](https://burgeroff.herokuapp.com/) to view the app in Heroku.
 
