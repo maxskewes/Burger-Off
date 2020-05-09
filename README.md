@@ -4,6 +4,10 @@ Burger Off! is an app designed with [Handlebars](handlebarsjs.com), utilizing th
 
 ![Alt text](./readmeBurgerOff.png?raw=true "AppImage")
 
+
+## Deployment
+Click [here](https://burgeroff.herokuapp.com/) to view the deployed app in Heroku.
+
 ## Technologies Utilized
 * [MySQL](https://www.mysql.com)
 * [Handlebars](handlebarsjs.com)
@@ -14,9 +18,6 @@ Burger Off! is an app designed with [Handlebars](handlebarsjs.com), utilizing th
 * [Heroku](https://www.heroku.com) (jawsDB addon - to connect to mysql)
 * [Jquery](https://jquery.com)
 * [CSS](https://www.w3schools.com/Css)
-
-## Deployment
-Click [here](https://burgeroff.herokuapp.com/) to view the app in Heroku.
 
 ## Author
 Maxwell Countryman Skewes
