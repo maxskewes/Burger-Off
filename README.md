@@ -1,6 +1,6 @@
 # BURGER OFF!
 ### ©2020
-Burger Off! is an app designed with [Handlebars](handlebarsjs.com), utilizing the database [MySql](https://www.mysql.com), that allows users to choose from a list of burgers or design their won. They may then choose to "devour" that burger which would move it from the left side of the screen to the right. There, the user is presented with two options, "regurgitate" or "digest". "Regurgitate" moves the burger back to its undevoured state where "digest" removes the burger from the list and deletes it from the database.
+Burger Off! is an app designed with [Handlebars](handlebarsjs.com), utilizing the database [MySql](https://www.mysql.com), that allows users to choose from a list of burgers or design their own. They may then choose to "devour" that burger which would move it from the left side of the screen to the right. There, the user is presented with two options, "regurgitate" or "digest". "Regurgitate" moves the burger back to its undevoured state where "digest" removes the burger from the list and deletes it from the database.
 
 ![Alt text](./readmeBurgerOff.png?raw=true "AppImage")
 
